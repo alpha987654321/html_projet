@@ -1,0 +1,45 @@
+ 
+ .navigation{
+    background-color: rgb(234, 210, 210);
+    list-style-type: none;
+    margin: 100;
+    padding: 00px;
+   
+
+}
+p {
+    margin: 50px;
+  }
+   /* unvisited link */
+   a.hover:link {
+    color: tomato;
+}
+
+/* visited link */
+a.hover:visited {
+    color: tomato;
+}
+
+/* mouse over element */
+div:hover {
+    color: tomato;
+} 
+
+/* selected link */
+a.hover:active{
+    color: #ff5100
+}
+.body{
+    font-family:  Courier, monospace;
+}
+li{
+    display: inline;
+   
+}
+li a {
+    text-decoration: none;
+}
+img{
+    padding: 100px ;
+
+}
